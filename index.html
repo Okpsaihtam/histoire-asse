@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Histoire de l'ASSE</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <link rel="icon" href="images/logo-asse.png" type="image/png">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo-container">
+                <img src="images/logo-asse.png" alt="Logo de l'ASSE" class="logo">
+            </div>
+            <ul class="menu">
+                <li><a href="#origines">Histoire et Origines</a></li>
+                <li><a href="#gloire">Moments de Gloire</a></li>
+                <li><a href="#legendes">Légendes du Club</a></li>
+                <li><a href="#stade">Stade Geoffroy-Guichard</a></li>
+                <li><a href="#chronologie">Chronologie Interactive</a></li>
+                <li><a href="#connexion">connexion</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="origines">
+            <h1>Histoire et Origines</h1>
+            <p>
+                Fondée en 1919 sous le nom d’Amicale des Employés de la Société des magasins Casino (A.S.C.), l'AS Saint-Étienne est rapidement devenue un pilier du football français. 
+                Ce club emblématique est reconnu comme l'un des plus historiques de France, tant pour ses exploits sportifs que pour son rôle dans la popularisation du football dans la région stéphanoise.
+            </p>
+            <p><a href="creation.html">En savoir plus sur la création du club</a></p>
+        </section>
+
+        <section id="gloire">
+            <h1>Moments de Gloire</h1>
+            <p>
+                L'AS Saint-Étienne, souvent appelée l'ASSE, est un véritable monument du football français. Avec dix titres de champion de France, six victoires en Coupe de France, 
+                et une épopée européenne légendaire en 1976, le club a marqué à jamais l'histoire du sport. Chaque trophée et chaque exploit symbolisent la détermination, 
+                le talent, et la passion des joueurs qui ont porté fièrement le maillot vert. Ces moments mémorables restent gravés dans la mémoire collective des supporters et dans les annales du football.
+            </p>
+            <p><a href="moments-gloire.html">Découvrez les moments de gloire de l'ASSE</a></p>
+        </section>
+
+        <section id="legendes">
+            <h1>Légendes du Club</h1>
+            <p>Depuis sa création, l’AS Saint-Étienne a été le théâtre de nombreux exploits grâce à des joueurs et des entraîneurs légendaires. 
+                Des figures comme Michel Platini, Dominique Rocheteau, Hervé Revelli, et Rachid Mekhloufi ont illuminé le terrain par leur talent, 
+                tandis que des entraîneurs visionnaires tels que Robert Herbin et Jean Snella ont façonné l’identité du club. Ensemble, ils ont écrit 
+                les plus belles pages de l’histoire des "Verts", construisant une tradition de succès et de passion qui perdure encore aujourd’hui.</p>
+            <p><a href="legendes-club.html">Découvrez les légendes du club</a></p>
+        </section>
+        
+
+        <section id="stade">
+            <h1>Stade Geoffroy-Guichard</h1>
+            <p>Le Stade Geoffroy-Guichard, surnommé "Le Chaudron", est bien plus qu’un simple stade. Véritable monument du football français, il est le théâtre des exploits de l’AS Saint-Étienne et un lieu de communion pour des générations de supporters. Implanté au cœur de Saint-Étienne depuis 1931, il incarne la passion et l’identité d’une ville où le football est bien plus qu’un sport, mais une véritable culture. Chaque pierre de ses tribunes porte la mémoire de victoires historiques, d’émotions collectives, et de l’attachement indéfectible entre le club et ses fans.</p>
+            <p><a href="stade-geoffroy-guichard.html">Découvrez l’histoire du stade Geoffroy-Guichard</a></p>
+        </section>
+        
+
+        <section id="chronologie">
+            <h1>Chronologie Interactive</h1>
+            <p>Revivez les moments les plus marquants et inoubliables de l'histoire de l'AS Saint-Étienne grâce à une sélection de photos emblématiques, soigneusement choisies pour capturer l'essence de chaque époque. Explorez cette chronologie interactive et plongez dans l'histoire du club à travers des images fortes qui racontent les exploits, les triomphes et les défis qui ont façonné l'identité de l'ASSE. Chaque photo est un témoignage vivant de l'héritage et de la passion qui entourent l'une des équipes les plus mythiques du football français.</p>
+            
+            <!-- Carrousel -->
+            <div class="carousel">
+                <div class="carousel-container">
+                    <img src="images/poteaux-carres.jpg" alt="création d'un site web sur l'histoire de l'asse">
+                    <img src="images/titre-1981.jpg" alt="création d'un portfolio via le langage de programmation JavaScript">
+                    <img src="images/coupe-ligue-2013.jpg" alt="Gérer un parc internet sur vsphere">
+                </div>
+                <button class="prev">❮</button>
+                <button class="next">❯</button>
+            </div>
+        </section>
+
+        <section id="connexion">
+            <h1>Connexion</h1>
+            <form action="process.php" method="POST">
+                <label for="username">Nom d'utilisateur :</label>
+                <input type="text" id="username" name="username" required>
+                
+                <label for="password">Mot de passe :</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="submit">Se connecter</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
